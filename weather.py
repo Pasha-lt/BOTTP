@@ -3,6 +3,8 @@ import logging
 
 import settings
 
+log = logging.getLogger(__name__)
+
 
 class Weather:
 
