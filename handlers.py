@@ -3,6 +3,8 @@ import logging
 from utils import get_keyboard
 from weather import Weather
 
+log = logging.getLogger(__name__)
+
 
 def start(update, context):
     logging.info(f"User {update.message.from_user} activate the bot")

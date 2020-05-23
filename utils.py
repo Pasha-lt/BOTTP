@@ -1,4 +1,9 @@
+import logging
+
 from telegram import KeyboardButton, ReplyKeyboardMarkup
+
+
+log = logging.getLogger(__name__)
 
 
 def get_keyboard():
